@@ -133,7 +133,7 @@ namespace Remmina
 
 		public override string Icon {
 			get {
-				return Path.Combine(Path.GetDirectoryName(GetType().Assembly.Location),"remmina.png"); 
+				return "remmina";
 			}
 		}
 	}
