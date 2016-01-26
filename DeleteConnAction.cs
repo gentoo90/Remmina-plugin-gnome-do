@@ -31,13 +31,13 @@ namespace Remmina
 		
 		public override string Name {
 			get {
-				return "删除Remmina主机";
+				return "Delete connection";
 			}
 		}
 
 		public override string Description {
 			get {
-				return "注意，将会删除Remmina配置文件";
+				return "Delete Remmina configuration file";
 			}
 		}
 

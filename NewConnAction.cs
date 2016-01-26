@@ -30,13 +30,13 @@ namespace Remmina
 	{
 		public override string Name {
 			get {
-				return "创建新主机";
+				return "New connection";
 			}
 		}
 
 		public override string Description {
 			get {
-				return Name;
+				return "Create new Remmina connection";
 			}
 		}
 

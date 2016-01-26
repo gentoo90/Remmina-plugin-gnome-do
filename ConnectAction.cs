@@ -31,13 +31,13 @@ namespace Remmina
 
 		public override string Name {
 			get {
-				return "连接该主机";
+				return "Connect";
 			}
 		}
 
 		public override string Description {
 			get {
-				return Name;
+				return "Connect to the remote system";
 			}
 		}
 
