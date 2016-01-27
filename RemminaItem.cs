@@ -26,7 +26,7 @@ using Do.Universe;
 
 namespace Remmina
 {
-	public class RemminaItem:Item
+	public class RemminaItem:Item, IRunnableItem
 	{
 		private String itemname;
 		private String prefpath;
@@ -59,6 +59,10 @@ namespace Remmina
 			get {
 				return "remmina";
 			}
+		}
+
+		public void Run() {
+			this.Connect();
 		}
 
 		public void Connect() {
